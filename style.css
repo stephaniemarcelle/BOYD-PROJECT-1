@@ -1,0 +1,166 @@
+html{
+    background-color: darkslateblue;
+    font-family: 'Poiret One', cursive;
+}
+
+#Navigation{
+    background-color: darkslateblue;
+    
+    padding: 5px;
+    
+    text-align: left;
+    
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.Key{
+    background-color: darkslateblue;
+    
+    float: left;
+    padding: 5px;
+
+    color: aquamarine;
+}
+
+h2{
+    background-color: #663399;
+    text-align: center;
+}
+
+h1{
+    background-color: aquamarine;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    
+    font-size: 50px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+    
+    border-right: 1px solid white;
+}
+
+li a{
+    display: block;
+    cursor: pointer;
+    color: aquamarine;
+    font-size: 20px;
+    font-family: shadows into light;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+li:first-child{
+    border-right: none;
+}
+
+p{
+    font-family: shadows into light; 
+    font-size: 16px;
+}
+
+img{
+    float: right; 
+    margin: 0 0 10px 10px;
+}
+
+#Bio{
+    background-color: white;
+    
+    padding: 5px;
+    
+    color: black;
+    font-size: 25px;
+    text-align: center; 
+    
+    transition: 1s; 
+}
+
+#Bio:hover{
+    background-color: black;
+    
+    color: white; 
+    
+    transition: 1s;
+}
+
+.Description{
+    background-color: aquamarine;
+    
+    border: 10px;
+    padding: 10px;
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+#Music{
+    background-color: white;
+    
+    color: black;
+    font-size: 20px;
+    text-align: center;
+     
+    padding: 5px;
+    
+    transition: 1s; 
+}
+
+#Music:hover{
+    background-color: black;
+    
+    color: white;
+    
+    transition: 1s;
+}
+
+.EP{
+    background-color: aquamarine;
+    
+    position: relative;
+    z-index: 1;
+    
+    transition: 1s;
+}
+
+.Tracks{
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.Date{
+    background-color: darkslateblue;
+    color: aquamarine;
+}
+
+.Date:hover{
+    background-color: cornflowerblue;
+    
+    color: black;
+}
+
+#Bottom{
+    background-color: black;
+    
+    Float: right;
+    color: white;
+    
+    padding: 10px;
+}
